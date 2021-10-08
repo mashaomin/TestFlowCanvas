@@ -1,0 +1,45 @@
+# Unity .gitignore file.
+.DS_Store
+*.pidb
+TestFlowCanvas/Library/
+TestFlowCanvas/obj/
+TestFlowCanvas/Temp/
+TestFlowCanvas/Build/
+TestFlowCanvas/Debug/
+TestFlowCanvas/xcodeProject/
+TestFlowCanvas/_ReSharper.Caches/
+BattleLibrary/_ReSharper.Caches/
+
+# Mono develop
+TestFlowCanvas/*.csproj
+TestFlowCanvas/*.sln
+*.suo
+*.userprefs
+*.unityproj
+*.DotSettings
+*.csproj.user
+
+# Other
+TestFlowCanvas/.vscode/
+TestFlowCanvas/.vs/
+TestFlowCanvas/Assets/UnityVS/
+TestFlowCanvas/Assets/UnityVS.*
+TestFlowCanvas/Assets/LuaFramework/.vscode/
+TestFlowCanvas_cp
+TestFlowCanvas/.idea/
+TestFlowCanvas/ExportedObj/
+TestFlowCanvas/Logs/shader_result*
+
+
+# Wwise
+*.akd
+
+# JetBrains
+
+
+# python
+TestFlowCanvas/.vsconfig
+
+# 冲突文件
+*.orig
+*.orig.meta
